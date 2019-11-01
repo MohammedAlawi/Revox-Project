@@ -1,0 +1,396 @@
+.container_2{
+	width:auto;
+	height:auto;
+	min-height:400px;
+	background:url(../../img/charge/texture_light_1.gif) repeat;
+	box-shadow:0 0 6px #000, inset 0 0 0 1px rgba(255,255,255,.015), inset 0 1px 0 rgba(255,255,255,.05);
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.container_3{
+	width:auto;
+	height:auto;
+	min-height:40px;
+	background:url(../../img/charge/texture_light_2.gif) repeat;
+	box-shadow:0 0 4px rgba(0,0,0,.6), 0 1px 1px rgba(0,0,0,.5), inset 0 0 0 1px rgba(255,255,255,.015), inset 0 1px 0 rgba(255,255,255,.05);
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	margin:0 0 14px 0;
+	z-index:1;
+}
+.account{
+	padding:0px 0 0 0
+}
+.cont-image{
+	/*width:868px;*/
+	height:auto;
+	background:url(../../img/charge/account_image.png) no-repeat top;
+	background-size:cover;
+	background-position:center;
+	padding:0px 0 0px 0;
+	min-height:400px
+}
+.account_sub_header{
+	width:843px;
+	height:57px;
+	padding:0;
+	overflow:hidden
+}
+
+.grad{
+	width:100%;
+	height:57px;
+	background:-moz-linear-gradient(top,  rgba(255,255,255,.0090) 52%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 80%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(52%,rgba(255,255,255,.01)), color-stop(30%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0)));
+	background:-webkit-linear-gradient(top,  rgba(255,255,255,.01) 52%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
+	background:-o-linear-gradient(top,  rgba(255,255,255,.01) 52%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
+	background:-ms-linear-gradient(top,  rgba(255,255,255,.01) 52%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
+	background:linear-gradient(top,  rgba(255,255,255,.01) 52%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+
+.buy-coins .title{
+	font-family:'Ropa Sans',sans-serif;
+	font-size:15px;
+	color:#9d9687;
+	text-shadow:0 2px 1px rgba(0,0,0,.5), 0 0 3px rgba(0,0,0,.2);
+	display:block;
+	margin:0 0 10px 0;
+}
+.container-left
+{
+	position:relative;
+	bottom:80px;
+}
+.buy-coins .container-left{
+	width:auto;
+	float:left;
+}
+.buy-coins .payment-method{
+	width:36%;
+	height:140px;
+	padding:25px 0 0 10px;
+}
+.buy-coins .coins-number{
+	width:24%;
+	height:155px;
+	padding:10px 0 0 0;
+}
+.buy-coins .coins-number ul{
+	list-style:none;
+}
+.buy-coins .coins-number ul li{}
+.buy-coins .coins-number ul li a{
+	width:49px;
+	height:26px;
+	display:block;
+	position:relative;
+	left:25px;
+	background-image:url(../../img/charge/ctr-arrows.png);
+	background-color:transparent;
+}
+.buy-coins .coins-number ul li#onemore-a a{
+	background-position:0 -26px;
+	margin:0 0 5px 0;
+}
+.buy-coins .coins-number ul li#oneless-a a{
+	background-position:0 0;
+	margin:5px 0 0 0;
+}
+.buy-coins .coins-number ul li#onemore-a a:hover{
+	background-position:-49px -26px;
+}
+.buy-coins .coins-number ul li#oneless-a a:hover{
+	background-position:-49px 0;
+}
+.purchase{
+	padding-top:25px;
+	padding-left:27.5%;
+}
+.buy-coins .purchase{
+	width:32% !important;
+	height:150px;
+	padding:15px 0 0 5%;
+	
+}
+.buy-coins .purchase input[type='submit']{
+	margin:0 0 0 1px;
+}
+.coin-money-price{
+	min-width:150px;
+	height:36px;
+	padding:14px 15px 14px 15px;
+	color:#666258;
+	font-weight:bold;
+}
+.coin-money-price span{
+	font-size:36px;
+	position:relative;
+	letter-spacing:-1px;
+	padding:0 4px 0 4px;
+	line-height:0;
+	top:3px;
+	color:#726b5a;
+	font-family:Tahoma,Geneva,sans-serif;
+	font-weight:normal;
+	vertical-align:top;
+}
+.coin-money-price p{
+	display:block;
+	float:left;
+	width:121px !important;
+	margin:5px 0 0 8px !important;
+	color:#c7c2b7 !important;
+}
+.coin-money-price div{
+	display:block;
+	float:right;
+	width:auto;
+	height:30px;
+	margin:12px 0 0 0;
+}
+.purchase p{
+	color:#939383;
+	font-size:11px;
+	margin:5px 0 13px 0;
+	text-shadow:0 0 5px rgba(0,0,0,.5), 0 1px 1px rgba(0,0,0,.5);
+	width:240px
+}
+.payment_methods{
+	
+}
+
+.page-title{
+	float:left;
+	font-family:'Ropa Sans',sans-serif;
+	color:#918979;
+	font-size:22px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	margin:16px 0 0 20px;
+	text-shadow:0 3px 1px rgba(0,0,0,.6), 0 0 5px rgba(0,0,0,.2);
+}
+
+div.sub-active-page{
+	float:left;
+	font-family:'Ropa Sans',sans-serif;
+	color:#918979;
+	font-size:22px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	text-shadow:0 3px 1px rgba(0,0,0,.6), 0 0 5px rgba(0,0,0,.2);
+	height:41px;
+	padding:16px 0 0 32px;
+	margin:0 0 0 7px;
+	background:url(../../img/charge/sub-page-title-bg.png) no-repeat left;
+}
+.account-wide{
+	width:843px;
+	padding:0;
+}
+.buy-coins .payment-method{
+	width:36%;
+	height:140px;
+	padding:25px 0 0 10px;
+}
+.buy-coins .coins-number{
+	width:24%;
+	height:155px;
+	padding:10px 0 0 0;
+}
+.buy-coins .coins-number ul li#onemore-a a{
+	background-position:0 -26px;
+	margin:0 0 5px 0;
+}
+.buy-coins .coins-number ul li#onemore-a a:hover{
+	background-position:-49px -26px;
+}
+.clear{
+	clear:both;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+}
+.clearfix{
+	display:inline-block;
+}
+
+
+.d-cont{
+	width:auto;
+	height:auto;
+	background:rgba(72, 59, 50, 0.65);
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	padding:10px 0 10px 15px;
+	box-shadow:inset 0 0 7px rgba(0,0,0,.8), 0 0 0 1px rgba(255,255,255,.01);
+	text-shadow:0 0 5px #000;
+}
+.coin-money-price{
+	min-width:150px;
+	height:36px;
+	padding:14px 15px 14px 15px;
+	color:#666258;
+	font-weight:bold;
+}
+.coin-money-price span{
+	font-size:42px;
+	letter-spacing:-1px;
+	padding:0 4px 0 4px;
+	line-height:0;
+	top:6px;
+	color:#8d846e;
+	font-family:Tahoma,Geneva,sans-serif;
+	font-weight:normal;
+	vertical-align:top;
+}
+.coin-money-price p{
+	display:block;
+	float:left;
+	width:121px !important;
+	margin:5px 0 0 8px !important;
+	color:#ada492 !important;
+}
+.coin-money-price div{
+	display:block;
+	float:right;
+	width:auto;
+	height:30px;
+	margin:12px 0 0 0;
+}
+.buy-coins
+{
+	padding-left:37.5%;
+	position:relative;
+	bottom:5px;
+	padding-bottom:20px;
+}
+.buy-coins .coins-number ul li input[type='text']{
+	width:120px;
+	height:81px;
+	padding:0 6px 0 0;
+	margin:0;
+	text-align:center;
+	font-size:50px;
+	font-family:'Ropa Sans',sans-serif;
+	color:#1666ff;
+	letter-spacing:-7px;
+	/*background:url(../../img/charge/coins-ico.png) no-repeat;
+    background-size: cover;
+    background-position: center;*/
+	border:solid 1px #2c3241;
+    background: #1e212a;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	box-shadow:0 0 9px #000;
+	text-shadow:0 -1px 0 #1956cc, 0 1px 0 #1459de, 0 2px 0 #123d8e, 0 3px 0 #041535, 0 4px 2px #000, 0 0 6px #000, 0 0 15px rgba(0,0,0,1), 0 0 15px rgba(0,0,0,1)
+}
+input[type="submit"]{
+	width:auto;
+	height:36px;
+	border:none;
+	cursor:pointer;
+	line-height:0;
+	text-transform:capitalize;
+	padding:0 21px 2px 21px;
+	vertical-align:top;
+	margin:2px 0 0 0;
+	background:#16223c;
+	background:-moz-linear-gradient(to bottom,  #0763d4 0%,#16223c 100%);
+	background:-webkit-gradient(to bottom,  #0763d4 0%,#16223c 100%), color-stop(100%,#16223c));
+	background:-webkit-linear-gradient(to bottom,  #0763d4 0%,#16223c 100%);
+	background:-o-linear-gradient(to bottom,  #0763d4 0%,#16223c 100%);
+	background:-ms-linear-gradient(to bottom,  #0763d4 0%,#16223c 100%);
+	background: linear-gradient(to bottom,  #0763d4 0%,#16223c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2a26', endColorstr='#201e1c',GradientType=0 );
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	color:#b1943e;
+	text-transform:uppercase;
+	font-weight:bold;
+	border-radius:3px;
+	text-shadow:1px 1px 0 rgba(0,0,0,.2), 0 0 5px rgba(0,0,0,.2);
+	box-shadow:inset 0 0 10px rgba(0,0,0,.15), inset 0 0 0 1px rgba(255,255,255,.02), inset 0 2px 0 rgba(255,255,255,.05), 0 0 6px rgba(0,0,0,.4);
+	transition:all 500ms;
+	-moz-transition:all 500ms;
+	-webkit-transition:all 500ms;
+	-o-transition:all 500ms;
+}
+input[type="submit"]:hover{
+	background:#081023;
+	background:-moz-linear-gradient(to bottom,  #157eff 0%,#081023 100%);
+	background:-webkit-gradient(to bottom,  #157eff 0%,#081023 100%), color-stop(100%,#242220));
+	background:-webkit-linear-gradient(to bottom,  #157eff 0%,#081023 100%);
+    background:-o-linear-gradient(to bottom,  #157eff 0%,#081023 100%);
+	background:-ms-linear-gradient(to bottom,  #157eff 0%,#081023 100%);
+	background:linear-gradient(to bottom,  #157eff 0%,#081023 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#201e1c', endColorstr='#242220',GradientType=0 );
+	box-shadow:inset 0 0 10px rgba(255,204,0,.02),inset 0 0 10px rgba(0,0,0,.15), inset 0 0 0 1px rgba(255,255,255,.02),inset 0 2px 0 rgba(255,255,255,.05), 0 0 6px rgba(0,0,0,.4);
+	color:#e5d6aa;
+}
+.sec_b_holder{
+	width:100%;
+	height:auto;
+	background:url(../../img/charge/footer.png) no-repeat bottom;
+	padding:60px 0 49px 0;
+	margin:0 0 0 0;
+}
+#body{
+	width:996px;
+	height:auto;
+	padding:0 0 0 0;
+}
+.main_b_holder{
+	width:100%;
+	height:auto;
+	min-height:100px;
+	background:url(../../img/charge/body_top.png) no-repeat top;
+	//top:-39px;
+	font-size:12px;
+}
+.content_holder{
+	width:996px;
+	height:auto;
+	padding:0 0 0 0;
+}
+
+.informaiton ul h2{
+	color:#989184;
+	margin:20px 0 10px -15px;
+	font-weight:normal;
+}
+
+.informaiton p span{
+	display:inline-block;
+	margin:0 8px 0 0;
+	font-weight:bold;
+	color:#4a4943;
+}
+h1 {
+    font-family: calibrib;
+    text-transform: uppercase;
+    margin: 0 0 18px 0;
+    color: #a07e3d;
+}
+h2 {
+    color: #989184;
+    margin: 20px 0 10px -15px;
+    font-weight: normal;
+}
+h3 {
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    font-family: calibri;
+    font-size: 17px;
+    color: #989184;
+}
+
